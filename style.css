@@ -1,0 +1,72 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    text-align: center;
+    color: rgba(218,141,20,1);
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.button {
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 70%;
+}
+
+.button#clear {
+    font-size: 20px;
+}
+
+#container {
+    background: rgb(249,249,0);
+    background: linear-gradient(150deg, rgba(249,249,0,1) 0%, rgba(218,141,20,1) 71%, rgba(148,153,43,1) 100%);
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 30px auto;
+    box-shadow: 25px 13px 25px rgba(218,141,20,1);
+}
+
+#container:hover {
+    transform: rotate(0.5deg);
+    transition: all 0.3s linear;
+}
+
+#screen {
+    background-color: dimgrey;
+    color: floralwhite;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 30px 15px 50px 15px;
+    padding: 40px 0;
+    opacity: 70%;
+    font-size: 40px;
+    text-align: center;
+}
+
+#main-calc {
+    margin: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#numbers {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+}
+
+.number {
+    padding: 10px 3px;
+}
+
+#operators {
+    display: grid;
+}
